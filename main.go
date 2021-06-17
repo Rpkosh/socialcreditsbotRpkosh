@@ -11,7 +11,7 @@ import (
 )
 
 type Settings struct {
-	BotToken    string `envconfig:"BOT_TOKEN" required:"true"`
+	BotToken    string `envconfig:"BOT_TOKEN" required:"false"`
 	PostgresURL string `envconfig:"DATABASE_URL" required:"true"`
 }
 
